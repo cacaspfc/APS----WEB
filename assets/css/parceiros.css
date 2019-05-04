@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    background-image: linear-gradient(to right, rgba(88,179,164,0.79) 20%, rgba(88,179,164,0.8) 23%, rgba(88,179,164,0.8) 23%, rgba(164,179,87,0.97) 81%, rgba(164,179,87,1) 93%);
+    font-family: sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu{ 
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.menu a{
+    text-decoration: none;
+    padding: 0 69px;
+    font-family: sans-serif;
+    color: rgb(65, 65, 65);
+    font-size: 1.2em;
+    border-right: 1px solid rgb(255, 1, 1);
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.menu a:hover{
+    opacity: 0.5;
+}
+
+.menu a:nth-last-child(1){
+    border-right: none;
+}
+
+/* ----------------------------------------------------------------------- */
+
+.conteudo{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.card{
+    background-color: rgba(240, 248, 255, 0.13);
+    width: 48%;
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.text{
+    font-size: 1.08em;
+}
+
+.card p{
+    width: 80%;
+}
+
+h1{
+    text-align: center;
+}
+
+.banner{
+    width: 100%;
+    height: 850px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.curso{
+    width: 350px;
+    height: 750px;
+    display: flex;
+    border-right: solid 2px rgb(0, 0, 0);
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagem{
+    width: 300px;
+    height: 200px;
+}
+.cont-curso{
+    text-align: right;
+    width: 300px;
+    height: 100%;
+    font-size: 1.04em;
+}
+
+.proa{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 90%;
+    border-right: 2px solid black;
+    align-items: center;
+    text-align: center;
+}
+
+.proa img{
+    width: 60%;
+    height: 200px;
+    border-radius: 5%;
+    
+}
+
+.curso-proa{
+    align-items: flex-end;
+    text-align: right;
+    padding-right: 16px;
+}
+
+
+/* ---------------------------------------------------------- */
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+}
+
+footer img{
+    float: left;
+}
+
+.rodape{
+    width: 90%;
+    padding: 20px 0px;
+    color: white;
+}
+
+
