@@ -37,10 +37,18 @@ nav{
 }
 
 /* ----------------------------------------------------------------------- */
+
+.message{
+  padding-top: 150px;
+  width: 50%;
+  height: 50px;
+  margin: 0 auto;
+}
+
 .form {
-    width: 50%;
-    margin: 0 auto;
-    padding-top: 150px; 
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 50px;
   }
   
   .form-contact {
